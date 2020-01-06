@@ -1,7 +1,7 @@
 function click1(){
-		document.getElementById("header").font.color = "yellow";
+		document.getElementById('header').style.color = 'yellow';
 }
 
 function click2(){
-		document.getElementById("header").font.color = "purple";
+		document.getElementById('header').style.color = 'purple';
 }
