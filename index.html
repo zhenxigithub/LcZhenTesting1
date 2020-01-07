@@ -5,15 +5,20 @@
 	<link rel="stylesheet" type="text/css" href="home.css">
 
 </head>
-		<script src="home.js"></script>
+		<script src="home.js">
+			fadein()
+		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <body>
 
 <h1 id="header" onclick="click1()">How this Work</h1>
 
 <p id="firsttext" onclick="click2()">First Try</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gIOyB9ZXn8s?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+<img id="senku" src="drstone.png" style="position: absolute;">
 
-<img src="drstone.png">
+<button onclick="fadein()">In</button>
+<button onclick="fadeout()">out</button>
+
 </body>
 </html>
