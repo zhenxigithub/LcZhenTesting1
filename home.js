@@ -23,7 +23,7 @@ document.addEventListener("keydown",event=>{
 	var rect = document.getElementById('senku').getBoundingClientRect();
 
 	if (event.keyCode == '39') { //right
-		document.getElementById('header').innerHTML = "you pressed right	keypress : " + time;
+		document.getElementById('header').innerHTML = "you pressed right. total keypress : " + time;
 		left += 200
 		document.getElementById('senku').style.left = left + "px";
 
@@ -31,7 +31,7 @@ document.addEventListener("keydown",event=>{
 	}
 
 	if (event.keyCode == '37') {//left
-		document.getElementById('header').innerHTML = "you pressed left	keypress : " + time;;
+		document.getElementById('header').innerHTML = "you pressed left. total keypress : " + time;;
 		left -=200;
 		document.getElementById('senku').style.left = left + "px";
 
@@ -39,7 +39,7 @@ document.addEventListener("keydown",event=>{
 	}
 
 	if (event.keyCode == '38') {
-		document.getElementById('header').innerHTML = "you pressed up	keypress : " + time;
+		document.getElementById('header').innerHTML = "you pressed up. total keypress : " + time;
 		bottom += 200 
 		document.getElementById('senku').style.bottom = bottom + "px";
 
@@ -48,7 +48,7 @@ document.addEventListener("keydown",event=>{
 
 	if (event.keyCode == '40') {
 
-		document.getElementById('header').innerHTML = "you pressed down	keypress : " + time;
+		document.getElementById('header').innerHTML = "you pressed down. total keypress : " + time;
 		bottom -= 200
 		document.getElementById('senku').style.bottom = bottom + "px";
 
